@@ -20,4 +20,4 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:1000`);
+console.log(`Running on PORT 1000`);
