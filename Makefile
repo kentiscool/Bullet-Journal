@@ -12,7 +12,7 @@ clean_server:
 
 setup_docker:
 	sudo apt-get update
-	sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
+	sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg \ lsb-release 
 	sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 	sudo apt-get update
 	echo \
