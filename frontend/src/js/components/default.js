@@ -5,7 +5,7 @@ export class DefaultComponent extends HTMLElement {
     }
 
     render() {
-        this.innerHTML = (`<a/ >`)
+        this.innerHTML = (`<a href="MyPage.html">My page</a>`)
     }
 }
 
