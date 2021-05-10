@@ -1,4 +1,4 @@
-export class DefaultComponent extends HTMLElement {
+export class DefaultPage extends HTMLElement {
 
     connectedCallback() {
         this.render();
@@ -9,4 +9,4 @@ export class DefaultComponent extends HTMLElement {
     }
 }
 
-customElements.define('default-component', DefaultComponent);
+customElements.define('default-page', DefaultPage);

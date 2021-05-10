@@ -33,6 +33,7 @@ export class Delph {
       if (!back){
         history.pushState({ page}, null, `/${page}`);
       }
+      const c = new route.component
       this.routerOutlet.appendChild(new route.component)
     }
   }

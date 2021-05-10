@@ -4,10 +4,3 @@ export function loadRoute (route){
         route
     }
 }
-
-export function increaseKendal (count){
-    return {
-        type: 'INCREASE_KENDAL',
-        count
-    }
-}
